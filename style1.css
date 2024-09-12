@@ -1,0 +1,168 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #000000; /* Dark grey background */
+    color: white; /* White font color */
+}
+
+/* Front page section */
+.front-page {
+    display: flex;
+    padding: 50px;
+    align-items: flex-start; /* Align items to the top */
+    justify-content: flex-start; /* Ensure left alignment */
+}
+
+.profile-photo {
+    border-radius: 50%;
+    width: 200px;
+    height: 266px;
+    margin-right: 20px; /* Add some space between photo and text */
+    margin-top: 40px;
+}
+
+.intro-section {
+    text-align: left;
+    margin-top: 50px; /* Adjust this value to move the section down */
+    
+}
+
+.intro-section h3{
+    font-size: 40px;
+    margin: 0;
+    
+}
+
+.intro-section h1{
+    font-size: 80px;
+    margin: 0;
+    background: linear-gradient(to right, violet, yellow, red, blue); /* Gradient background */
+    -webkit-background-clip: text; /* Ensures gradient applies to text */
+    color: transparent; /* Makes the actual text color transparent */
+}
+
+/* About section */
+.about-section {
+    padding: 50px;
+    text-align: left;
+}
+
+.about-section h1 {
+    font-size: 40px;
+}
+
+.about-section p {
+    font-size: 20px;
+    width: 80%;
+    text-align: justify;
+    margin-left: 0;
+}
+
+.contact-section {
+    padding: 50px;
+    text-align: left;
+    background-color: #333; /* Dark background for contrast */
+}
+
+.contact-section h1 {
+    font-size: 40px;
+    color: white; /* White text color */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+.contact-list {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+}
+
+.contact-list li {
+    margin-bottom: 10px; /* Space between items */
+}
+
+.contact-list a {
+    color: #f0f0f0; /* Light color for links */
+    text-decoration: none; /* Remove underline from links */
+    font-size: 20px; /* Font size for contact items */
+}
+
+.contact-list a:hover {
+    text-decoration: underline; /* Underline on hover for better user experience */
+}
+
+/* Education section */
+.education-section {
+    padding: 50px;
+    text-align: left;
+}
+
+.education-section h1 {
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.education-item {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.education-photo {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    margin-top: -20px;
+}
+
+.education-text h3 {
+    font-size: 40px;
+    margin: 0;
+    margin-top: 0;
+}
+
+.education-text p {
+    font-size: 20px;
+    margin-top: 10px;
+    color: #bbbbbb; /* Slightly lighter grey for paragraphs */
+}
+
+/* Hobbies section */
+.hobbies-section {
+    padding: 50px;
+    text-align: justify;
+}
+
+.hobbies-section h1 {
+    font-size: 40px;
+}
+
+.hobbies-item {
+    display: flex;
+    justify-content: center; /* Center the photo horizontally */
+    margin-bottom: 20px;
+}
+
+.nr-photo {
+    width: 400px;
+    height: 300px;
+    margin-left: 20px;
+}
+
+.rg-photo {
+    width: 400px; /* Adjust size of the RyanG photo */
+    height: auto;
+    margin-left: 0;
+    margin-right: 0;
+    display: block;
+}
+
+/* Ensure text after the photo is normal */
+.hobbies-section h3,
+.hobbies-section p {
+    font-size: 20px;
+    color: #bbbbbb;
+    text-align: left; /* Align text to the left */
+}
